@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/luxon@2.0.2/build/global/luxon.min.js"></script>
+    <title>Timezone Converter</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div id="time_converter">
+            <h1 id="title">Timezone Converter</h1>
+
+            <div id="localTime">
+                <p>Local time:</p>
+                <p id="time"></p>
+            </div>
+
+            <div id="timeSpace">
+
+                <div class="time_form">
+                    <label for="fromTimeZone">Time from:</label>
+                    <select name="" id="fromTimeZone"></select>
+                </div>
+                <div class="time_form">
+                    <label for="toTimeZone">to:</label>
+                    <select name="" id="toTimeZone"></select>
+                </div>
+                <button id="convertButton">Convert</button>
+
+            </div>
+
+            <div id="result"></div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
